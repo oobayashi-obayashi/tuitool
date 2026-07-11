@@ -85,7 +85,30 @@ opkey = getch();
     wrefresh(logview);
     break;
     }
-
+    case 102:
+    {
+    char command[sizeof(argv[1])/sizeof(argv[1][0]) + 13];
+    strcpy(command,"file ");
+    strcat(command,argv[1]);
+    strcat(command," > temp.txt");
+    system(command);
+    file_reader(view,"temp.txt"); // スクロール機能付きの関数
+    mvwprintw(logview,7,0,"%s\n",command);
+    wrefresh(logview);
+    break;
+    }
+    case 101:
+    {
+    char command[sizeof(argv[1])/sizeof(argv[1][0]) + 17];
+    strcpy(command,"exiftool ");
+    strcat(command,argv[1]);
+    strcat(command," > temp.txt");
+    system(command);
+    file_reader(view,"temp.txt"); // スクロール機能付きの関数
+    mvwprintw(logview,7,0,"%s\n",command);
+    wrefresh(logview);
+    break;
+    }
     case 81:
     situation_flag = 1;
     break;
@@ -94,6 +117,10 @@ opkey = getch();
     break;
 }
 flushinp();
+    system("tree --charset=ascii -a  ./ > temp.txt");
+    file_reader(workview,"temp.txt"); // スクロール機能付きの関数
+    mvwprintw(logview,7,0,"tree  -a > temp.txt\n");
+    wrefresh(logview);
 }
 
 
