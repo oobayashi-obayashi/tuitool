@@ -1,0 +1,15 @@
+
+.
+|-- LICENSE
+|-- README.md
+|-- a.out
+|-- headerfiles
+|   `-- winfunc.c
+|-- headers
+|   `-- winfunc.h
+|-- main.c
+|-- preview.c
+|-- test.c
+`-- tree.map
+
+3 directories, 9 files

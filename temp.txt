@@ -1,0 +1,15 @@
+total 88
+drwxr-xr-x 5 n_oobayashi n_oobayashi  4096 Jul 11 17:39 .
+drwxr-xr-x 3 n_oobayashi n_oobayashi  4096 Jul 11 08:37 ..
+-rwxr-xr-x 1 n_oobayashi n_oobayashi 22384 Jul 11 17:39 a.out
+drwxr-xr-x 7 n_oobayashi n_oobayashi  4096 Jul 11 09:47 .git
+-rw-r--r-- 1 n_oobayashi n_oobayashi    60 Jul 11 09:46 .gitignore
+drwxr-xr-x 2 n_oobayashi n_oobayashi  4096 Jul 11 09:41 headerfiles
+drwxr-xr-x 2 n_oobayashi n_oobayashi  4096 Jul 11 08:39 headers
+-rw-r--r-- 1 n_oobayashi n_oobayashi 18092 Jul 11 08:37 LICENSE
+-rw-r--r-- 1 n_oobayashi n_oobayashi  2579 Jul 11 09:43 main.c
+-rw-r--r-- 1 n_oobayashi n_oobayashi  3859 Jul 11 08:37 preview.c
+-rw-r--r-- 1 n_oobayashi n_oobayashi    62 Jul 11 08:37 README.md
+-rw-r--r-- 1 n_oobayashi n_oobayashi     0 Jul 11 17:39 temp.txt
+-rw-r--r-- 1 n_oobayashi n_oobayashi   982 Jul 11 08:37 test.c
+-rw-r--r-- 1 n_oobayashi n_oobayashi   176 Jul 11 08:37 tree.map
