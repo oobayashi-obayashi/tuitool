@@ -116,6 +116,7 @@ int file_reader(WINDOW *WIN_P,char* filename){
     scrollok(WIN_P, TRUE);
     mvwprintw(WIN_P,0,0,"line:%d",ln);
     wmove(WIN_P,2,0);
+    wclear(WIN_P);
 
     FILE *fp = fopen(filename,"r");
 

@@ -1,15 +1,172 @@
-total 88
-drwxr-xr-x 5 n_oobayashi n_oobayashi  4096 Jul 11 17:39 .
-drwxr-xr-x 3 n_oobayashi n_oobayashi  4096 Jul 11 08:37 ..
--rwxr-xr-x 1 n_oobayashi n_oobayashi 22384 Jul 11 17:39 a.out
-drwxr-xr-x 7 n_oobayashi n_oobayashi  4096 Jul 11 09:47 .git
--rw-r--r-- 1 n_oobayashi n_oobayashi    60 Jul 11 09:46 .gitignore
-drwxr-xr-x 2 n_oobayashi n_oobayashi  4096 Jul 11 09:41 headerfiles
-drwxr-xr-x 2 n_oobayashi n_oobayashi  4096 Jul 11 08:39 headers
--rw-r--r-- 1 n_oobayashi n_oobayashi 18092 Jul 11 08:37 LICENSE
--rw-r--r-- 1 n_oobayashi n_oobayashi  2579 Jul 11 09:43 main.c
--rw-r--r-- 1 n_oobayashi n_oobayashi  3859 Jul 11 08:37 preview.c
--rw-r--r-- 1 n_oobayashi n_oobayashi    62 Jul 11 08:37 README.md
--rw-r--r-- 1 n_oobayashi n_oobayashi     0 Jul 11 17:39 temp.txt
--rw-r--r-- 1 n_oobayashi n_oobayashi   982 Jul 11 08:37 test.c
--rw-r--r-- 1 n_oobayashi n_oobayashi   176 Jul 11 08:37 tree.map
+y/lib64/ld-linux-x86-64.so.2
+_ITM_deregisterTMCloneTable
+__gmon_start__
+_ITM_registerTMCloneTable
+getcurx
+getcury
+wclear
+wrefresh
+wchgat
+wscrl
+endwin
+curs_set
+getmaxx
+getmaxy
+wgetch
+wborder
+wsetscrreg
+cbreak
+keypad
+flushinp
+wmove
+scrollok
+noecho
+mvwprintw
+initscr
+newwin
+stdscr
+fgetc
+fgets
+__stack_chk_fail
+free
+fopen
+system
+strlen
+feof
+realloc
+strcat
+malloc
+__libc_start_main
+__cxa_finalize
+ftell
+fclose
+printf
+fseek
+libncursesw.so.6
+libc.so.6
+GLIBC_2.4
+GLIBC_2.34
+GLIBC_2.2.5
+NCURSESW6_5.6.20061217
+NCURSES6_TINFO_5.0.19991023
+NCURSESW6_5.1.20000708
+PTE1
+u3UH
+strings H
+ > temp.H
+set_window_flame was failed
+tree --charset=ascii -a  ./ > temp.txt
+temp.txt
+tree  -a > temp.txt
+ls -l -a > temp.txt
+ls -l -a> temp.txt
+enter to close
+file not found
+<page of %d> [%s]
+[please any key]
+<enter to close>
+line:%d
+;*3$"
+GCC: (GNU) 16.1.1 20260430
+Scrt1.o
+__abi_tag
+crtbeginS.o
+deregister_tm_clones
+__do_global_dtors_aux
+completed.0
+__do_global_dtors_aux_fini_array_entry
+frame_dummy
+__frame_dummy_init_array_entry
+main.c
+winfunc.c
+crtendS.o
+__FRAME_END__
+_DYNAMIC
+__GNU_EH_FRAME_HDR
+_GLOBAL_OFFSET_TABLE_
+newwin@NCURSESW6_5.1.20000708
+noecho@NCURSESW6_5.1.20000708
+wmove@NCURSESW6_5.1.20000708
+free@GLIBC_2.2.5
+flushinp@NCURSES6_TINFO_5.0.19991023
+__libc_start_main@GLIBC_2.34
+_ITM_deregisterTMCloneTable
+curs_set@NCURSES6_TINFO_5.0.19991023
+getmaxy@NCURSESW6_5.6.20061217
+wchgat@NCURSESW6_5.1.20000708
+_edata
+fclose@GLIBC_2.2.5
+_fini
+strlen@GLIBC_2.2.5
+__stack_chk_fail@GLIBC_2.4
+mvwprintw@NCURSESW6_5.1.20000708
+system@GLIBC_2.2.5
+file_player
+set_window_frame
+printf@GLIBC_2.2.5
+wsetscrreg@NCURSESW6_5.1.20000708
+wgetch@NCURSESW6_5.1.20000708
+stdscr@NCURSES6_TINFO_5.0.19991023
+fgetc@GLIBC_2.2.5
+getmaxx@NCURSESW6_5.6.20061217
+keypad@NCURSES6_TINFO_5.0.19991023
+wrefresh@NCURSESW6_5.1.20000708
+fgets@GLIBC_2.2.5
+__data_start
+ftell@GLIBC_2.2.5
+feof@GLIBC_2.2.5
+__gmon_start__
+__dso_handle
+_IO_stdin_used
+wborder@NCURSESW6_5.1.20000708
+scrollok@NCURSESW6_5.1.20000708
+file_reader
+cbreak@NCURSES6_TINFO_5.0.19991023
+malloc@GLIBC_2.2.5
+_end
+wscrl@NCURSESW6_5.1.20000708
+fseek@GLIBC_2.2.5
+realloc@GLIBC_2.2.5
+initscr@NCURSESW6_5.1.20000708
+__bss_start
+main
+file_reader_p
+fopen@GLIBC_2.2.5
+strcat@GLIBC_2.2.5
+__TMC_END__
+_ITM_registerTMCloneTable
+getcury@NCURSESW6_5.6.20061217
+wclear@NCURSESW6_5.1.20000708
+endwin@NCURSESW6_5.1.20000708
+__cxa_finalize@GLIBC_2.2.5
+_init
+getcurx@NCURSESW6_5.6.20061217
+.symtab
+.strtab
+.shstrtab
+.note.gnu.build-id
+.interp
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.sframe
+.note.gnu.property
+.note.ABI-tag
+.init_array
+.fini_array
+.dynamic
+.got
+.got.plt
+.data
+.bss
+.comment

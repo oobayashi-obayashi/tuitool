@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <ncurses.h>
+#include <string.h>
 #include <unistd.h>
 
 #include "headers/winfunc.h"
@@ -41,11 +42,14 @@ int main(int argc,char *argv[]){
     WINDOW *logview;  
     int view_flame_flag =  set_window_frame(my,mx,cx,cy,&view_f,&view,&workview_f,&workview,&logview_f,&logview);
     scrollok(logview, TRUE);
+    int temp_length = sizeof(argv[1])/sizeof(argv[1][0]);
 
     if(view_flame_flag != 0) {
     printf("set_window_flame was failed");
     return 0;
     }
+
+    wrefresh(logview);
 
     int opkey = getch();
     int situation_flag = 0;
@@ -54,7 +58,7 @@ opkey = getch();
     switch(opkey){
     case 116:
     {
-    system("tree --charset=ascii -a > temp.txt");
+    system("tree --charset=ascii -a  ./ > temp.txt");
     file_reader(view,"temp.txt"); // スクロール機能付きの関数
     mvwprintw(logview,7,0,"tree  -a > temp.txt\n");
     wrefresh(logview);
@@ -69,7 +73,18 @@ opkey = getch();
     wrefresh(logview);
     break;
     }
-
+    case 115:
+    {
+    char command[sizeof(argv[1])/sizeof(argv[1][0]) + 16];
+    strcpy(command,"strings ");
+    strcat(command,argv[1]);
+    strcat(command," > temp.txt");
+    system(command);
+    file_reader(view,"temp.txt"); // スクロール機能付きの関数
+    mvwprintw(logview,7,0,"%s\n",command);
+    wrefresh(logview);
+    break;
+    }
 
     case 81:
     situation_flag = 1;
